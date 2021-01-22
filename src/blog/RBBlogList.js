@@ -1,4 +1,4 @@
-function BlogList() {
+function RBBlogList() {
     return (
         <div className="blog-list">
             <p>Blog list page</p>
@@ -6,4 +6,4 @@ function BlogList() {
     );
 }
 
-export default BlogList;
+export default RBBlogList;

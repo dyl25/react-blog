@@ -4,8 +4,8 @@ import {
   Route
 } from "react-router-dom"
 
-import BlogDetails from "./BlogDetails"
-import BlogList from "./BlogList"
+import { RBBlogDetails as BlogDetails } from "./blog/RBBlogDetails"
+import { RBBlogList as BlogList } from "./blog/RBBlogList"
 import Navbar from "./Navbar"
 
 function App() {

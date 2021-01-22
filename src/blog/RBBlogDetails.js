@@ -1,4 +1,4 @@
-function BlogDetails() {
+function RBBlogDetails() {
     return (
         <div className="blog-details">
             <p>Blog details page</p>
@@ -6,4 +6,4 @@ function BlogDetails() {
     );
 }
 
-export default BlogDetails;
+export default RBBlogDetails;
