@@ -1,0 +1,28 @@
+{
+    "blogs" : [
+        {
+            "id" : 1,
+            "title" : "A super blog title",
+            "content" : "Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit",
+            "created_at" : "2020-05-30"
+        },
+        {
+            "id": 2,
+            "title": "The best of the best",
+            "content": "Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit",
+            "created_at": "2020-08-01"
+        },
+        {
+            "id": 3,
+            "title": "A nice looking article",
+            "content": "Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit",
+            "created_at": "2020-09-15"
+        },
+        {
+            "id": 4,
+            "title": "My super title",
+            "content": "Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit Lorem ipsum dolores mit",
+            "created_at": "2020-10-23"
+        }
+    ]
+}

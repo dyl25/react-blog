@@ -1,13 +1,32 @@
+import { 
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom"
+
+import BlogDetails from "./BlogDetails"
+import BlogList from "./BlogList"
+import Navbar from "./Navbar"
 
 function App() {
   return (
-    <div className="App">
-      <section className="section">
-        <div className="container">
-          
-        </div>
-      </section>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <section className="section">
+          <div className="container">
+            <Switch>
+              <Route exact path="/blogs">
+                <BlogList />
+              </Route>
+              <Route path="/blogs/details">
+                <BlogDetails />
+              </Route>
+            </Switch>
+          </div>
+        </section>
+      </div>
+    </Router>
   );
 }
 
