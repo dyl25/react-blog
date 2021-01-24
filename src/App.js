@@ -4,8 +4,8 @@ import {
   Route
 } from "react-router-dom"
 
-import { RBBlogDetails as BlogDetails } from "./blog/RBBlogDetails"
-import { RBBlogList as BlogList } from "./blog/RBBlogList"
+import RBBlogDetails from "./blog/RBBlogDetails"
+import RBBlogList from "./blog/RBBlogList"
 import Navbar from "./Navbar"
 
 function App() {
@@ -16,11 +16,14 @@ function App() {
         <section className="section">
           <div className="container">
             <Switch>
+              <Route exact path="/">
+                <RBBlogList />
+              </Route>
               <Route exact path="/blogs">
-                <BlogList />
+                <RBBlogList />
               </Route>
               <Route path="/blogs/details">
-                <BlogDetails />
+                <RBBlogDetails />
               </Route>
             </Switch>
           </div>
