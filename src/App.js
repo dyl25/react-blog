@@ -3,6 +3,7 @@ import {
   Switch,
   Route
 } from "react-router-dom"
+import RBBlogCreation from "./blog/RBBlogCreation";
 
 import RBBlogDetails from "./blog/RBBlogDetails"
 import RBBlogList from "./blog/RBBlogList"
@@ -24,6 +25,9 @@ function App() {
               </Route>
               <Route path="/blogs/details">
                 <RBBlogDetails />
+              </Route>
+              <Route path="/blogs/create">
+                <RBBlogCreation />
               </Route>
             </Switch>
           </div>

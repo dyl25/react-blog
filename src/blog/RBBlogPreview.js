@@ -4,9 +4,9 @@ function RBBlogPreview({blogs}) {
         <div className="blog-preview">
             {
                 blogs.map(blog => (
-                    <div className="card" key={blog.id}>
+                    <div className="card mt-3" key={blog.id}>
                         <div className="card-content">
-                            <p className="title">
+                            <p className="title is-size-4">
                                 {blog.title}
                             </p>
                             <p className="card-content">
